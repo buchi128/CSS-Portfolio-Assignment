@@ -1,0 +1,16 @@
+{
+  "name": "Isu Onyebuchi Joseph | Software Engineer",
+  "short_name": "Isu Joseph",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#025a4e",
+  "background_color": "#f3f0eb",
+  "description": "Portfolio website for Isu Onyebuchi Joseph, Full-Stack Software Engineer.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
