@@ -384,9 +384,6 @@ footer p{
     }
 }
 @media (max-width:650px){
-    /* body{
-        padding-top:7rem;
-    } */
     nav{
         flex-direction:column;
         gap:.75rem;
