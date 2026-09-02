@@ -37,12 +37,13 @@ header{
 }
 nav{
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
+    align-items:center;
     flex-wrap:wrap;
     gap:1.5rem;
 
     background:rgb(243,240,235);
-    padding:1rem 0;
+    padding:1rem 1.5rem;
 
     border-radius:0 0 20px 20px;
 
@@ -60,6 +61,22 @@ nav a{
     text-decoration:none;
     font-weight:700;
     font-size:1rem;
+}
+.site-logo{
+    display:flex;
+    align-items:center;
+    gap:.5rem;
+    color:var(--primary);
+    font-size:1.1rem;
+    font-weight:700;
+    line-height:1.2;
+    margin:0;
+    text-decoration:none;
+}
+.site-logo img{
+    width:2rem;
+    height:2rem;
+    object-fit:contain;
 }
 
 #nav-toggle{
@@ -87,10 +104,9 @@ nav a{
 }
 .nav-links{
     display:flex;
-    justify-content:center;
+    justify-content:flex-end;
     flex-wrap:wrap;
     gap:1.5rem;
-    width:100%;
 }
 #nav-toggle:checked + .nav-toggle-label span:nth-child(1){
     transform:translateY(.65rem) rotate(45deg);
